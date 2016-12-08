@@ -1,5 +1,4 @@
 
-
  var nameList = {
    'Moe': 18,
    'Larry': 19,
@@ -11,9 +10,8 @@
    'Mary': 25,
    'Darcy': 24,
    'Grey': 18,
-   'Lydia': 24,'
-   Harriet': 18
- };
+   'Lydia': 24,
+   'Harriet': 18
+ }
 
-
- console.log(nameList);
+ console.log(nameList)

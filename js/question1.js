@@ -11,6 +11,6 @@ var friends = [
   'Grey',
   'Lydia',
   'Harriet'
-];
+]
 
-console.log(friends[friends.length - 1]);
+console.log(friends[friends.length - 1])

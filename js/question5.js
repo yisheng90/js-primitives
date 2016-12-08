@@ -10,7 +10,7 @@ var myFriends = [
   'Jory',
   'Septa',
   'Jon'
-];
+]
 
 var yourFriends = [
   'Bilbo',
@@ -21,8 +21,8 @@ var yourFriends = [
   'Gandalf',
   'Legolas',
   'Pippin'
-];
+]
 
-var ourFriends = myFriends.concat(yourFriends);
-ourFriends.sort();
-console.log(ourFriends);
+var ourFriends = myFriends.concat(yourFriends)
+ourFriends.sort()
+console.log(ourFriends)

@@ -11,6 +11,6 @@ var friends = [
   'Grey',
   'Lydia',
   'Harriet'
-];
+]
 
-console.log(friends.sort().reverse());
+console.log(friends.sort().reverse())

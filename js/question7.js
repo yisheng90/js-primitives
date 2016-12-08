@@ -18,10 +18,10 @@ var foods = [
   'Sushi',
   'Chocolate',
   'Pizza'
-];
+]
 
-var item = foods.indexOf('Donuts');
-console.log('Donuts was ranked ' + item);
-foods.splice(foods.indexOf('Donuts'), 1);
-console.log('Donuts is removed.');
-console.log(foods);
+var item = foods.indexOf('Donuts')
+console.log('Donuts was ranked ' + item)
+foods.splice(foods.indexOf('Donuts'), 1)
+console.log('Donuts is removed.')
+console.log(foods)

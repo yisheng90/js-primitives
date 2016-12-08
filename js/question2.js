@@ -11,8 +11,8 @@ var friends = [
   'Grey',
   'Lydia',
   'Harriet'
-];
+]
 
 friends.sort()
-console.log('The sorted friend list: ');
-console.log(friends);
+console.log('The sorted friend list: ')
+console.log(friends)
