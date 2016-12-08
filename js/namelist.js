@@ -1,23 +1,11 @@
 
 
- var nameList = [
-   { name: 'Moe', age: 18 },
-   { name: 'Larry', age: 19 },
-   { name: 'Curly', age: 20 },
-   { name: 'Jane', age: 20 },
-   { name: 'Emma', age: 21 },
-   { name: 'Elizabeth', age: 18 },
-   { name: 'Elinor', age: 23 },
-   { name: 'Mary', age: 25 },
-   { name: 'Darcy', age: 24 },
-   { name: 'Grey', age: 18 },
-   { name: 'Lydia', age: 24 },
-   { name: 'Harriet', age: 18 }
- ];
+ var nameList = { name: ['Moe','Larry','Curly','Jane','Emma','Elizabeth','Elinor','Mary','Darcy','Grey','Lydia','Harriet'],
+age: [18, 19, 20, 20, 21, 18, 23, 25, 24, 18, 24, 18] };
 
 
  console.log(nameList);
 
- for (var i = 0; i < nameList.length; i++) {
-   console.log(nameList[i].name + ' is ' + nameList[i].age);
+ for (var i = 0; i < nameList.name.length; i++) {
+   console.log(nameList.name[i] + ' is ' + nameList.age[i]);
  }
