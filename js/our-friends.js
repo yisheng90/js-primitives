@@ -23,4 +23,5 @@ var yourFriends = [
   'Pippin'
 ];
 
-console.log(myFriends.concat(yourFriends));
+var ourFriends = myFriends.concat(yourFriends)
+console.log(ourFriends.sort());

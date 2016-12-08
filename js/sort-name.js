@@ -13,4 +13,5 @@ var friends = [
   'Harriet'
 ];
 
+console.log('The sorted friend list: ');
 console.log(friends.sort());
