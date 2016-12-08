@@ -20,4 +20,4 @@ var foods = [
   'Pizza'
 ];
 
-console.log('"Pho" was ranked ' + foods.indexOf('Pho') + 'in the foods list');
+console.log('"Pho" was ranked ' + (foods.indexOf('Pho') + 1) + ' in the foods list');

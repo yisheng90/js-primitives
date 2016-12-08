@@ -20,4 +20,4 @@ var foods = [
   'Pizza'
 ];
 
-console.log('My 5th to 10th fravorite are: ' + foods.slice(4, 9));
+console.log('My 5th to 10th fravorite are: ' + foods.slice(4, 10));
